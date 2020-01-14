@@ -26,6 +26,10 @@ public class RobotInSpace implements KeyEventDispatcher {
 	 */
 
 	private void moveRobot(int keyPressed) throws InterruptedException {
+		rob.microMove(15);
+		rob.setAngle(90);
+		System.out.println(keyPressed);
+		
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
 
